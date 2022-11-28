@@ -1,6 +1,6 @@
 <?php
 @session_start();
-$db = mysqli_connect("localhost", "lpicolle_el", "immanuel94_", "lpicolle_db_elearning");
+$db = mysqli_connect("localhost", "root", "", "db_elearning");
 ?>
 <!DOCTYPE html>
 <html>

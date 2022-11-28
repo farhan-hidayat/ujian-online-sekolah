@@ -1,5 +1,5 @@
 <?php
-$db = mysqli_connect("localhost", "lpicolle_el", "immanuel94_", "lpicolle_db_elearning");
+$db = mysqli_connect("localhost", "root", "", "db_elearning");
 
 //---fungsi2---//
 function cek_session($isi_admin, $isi_pengajar) {
